@@ -37,9 +37,9 @@ const Topbar = () => {
 
         <div className={`menu ${showMenu ? 'show' : ''}`}>
           <a className="link" href="#">OVERVIEW</a>
-          <a className="link" href="#">FEATURES</a>
-          <a className="link" href="#">TECHNOLOGY</a>
-          <a className="link" href="#">CONTACT</a>
+          <a className="link" href="#features">FEATURES</a>
+          <a className="link" href="#technology">TECHNOLOGY</a>
+          <a className="link" href="#contact">CONTACT</a>
           <a className="link" href="#">SIGN UP</a>
         </div>
 
